@@ -1,0 +1,3 @@
+.env
+kafka-clickstream-pipeline-env/
+__pycache__/
