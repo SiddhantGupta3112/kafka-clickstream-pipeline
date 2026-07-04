@@ -1,6 +1,6 @@
 # kafka-clickstream-pipeline
 
-A Kafka-based event streaming pipeline that ingests simulated user clickstream events, keyed by user ID for guaranteed per-user ordering, and performs real-time sessionization — grouping each user's activity into sessions with automatic closure after a period of inactivity.
+A Kafka-based event streaming pipeline that ingests simulated user clickstream events, keyed by user ID for guaranteed per-user ordering, and performs real-time sessionization — grouping each user's activity into sessions with automatic closure after a 30 minute period of inactivity.
 
 ---
 
